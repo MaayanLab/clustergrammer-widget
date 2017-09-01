@@ -14,12 +14,12 @@ class clustergrammer_widget(widgets.DOMWidget):
     notebook. Clustergrammer-Widget inherits from Clustergrammer.py which can
     be used to load data, filter, normalize, and cluster.
     """
-    _view_name = Unicode('hello_view').tag(sync=True)
     _model_name = Unicode('hello_model').tag(sync=True)
-    _view_module = Unicode('clustergrammer_widget').tag(sync=True)
-    _view_module_version = Unicode('1.13.1').tag(sync=True)
+    _view_name = Unicode('hello_view').tag(sync=True)
     _model_module = Unicode('clustergrammer_widget').tag(sync=True)
+    _view_module = Unicode('clustergrammer_widget').tag(sync=True)
     _model_module_version = Unicode('1.13.1').tag(sync=True)
+    _view_module_version = Unicode('1.13.1').tag(sync=True)
 
     mat_string = Unicode('').tag(sync=True)
 

@@ -1,4 +1,4 @@
-var widgets = require('jupyter-js-widgets');
+var widgets = require('@jupyter-widgets/base');
 var _ = require('underscore');
 var d3 = require('d3')
 var cgm_fun = require('clustergrammer');
@@ -18,12 +18,15 @@ require('!style!css!./custom.css');
 // defaults will be specified.
 var hello_model = widgets.DOMWidgetModel.extend({
   defaults: _.extend({}, widgets.DOMWidgetModel.prototype.defaults, {
-    _view_name : 'hello_view',
     _model_name : 'hello_model',
-    _view_module : 'clustergrammer_widget',
-    _view_module_version : '1.13.1',
+    _view_name : 'hello_view',
+
     _model_module : 'clustergrammer_widget',
+    _view_module : 'clustergrammer_widget',
+
     _model_module_version : '1.13.1',
+    _view_module_version : '1.13.1',
+
     viz_title : 'default value',
     network: ''
   })

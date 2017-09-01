@@ -40,7 +40,7 @@ module.exports = [
         module: {
             loaders: loaders
         },
-        externals: ['jupyter-js-widgets']
+        externals: ['@jupyter-widgets/base']
     },
     {// Embeddable clustergrammer_widget bundle
      //
@@ -67,7 +67,7 @@ module.exports = [
         module: {
             loaders: loaders
         },
-        externals: ['jupyter-js-widgets'],
+        externals: ['@jupyter-widgets/base'],
         plugins:[
             new webpack.ProvidePlugin({ _: "underscore" })
         ]
