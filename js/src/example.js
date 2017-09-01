@@ -21,6 +21,7 @@ var hello_model = widgets.DOMWidgetModel.extend({
     _view_name : 'hello_view',
     _model_name : 'hello_model',
     _view_module : 'clustergrammer_widget',
+    // _view_module_version : '1.13.1',
     _model_module : 'clustergrammer_widget',
     viz_title : 'default value',
     network: ''
@@ -45,6 +46,8 @@ var hello_view = widgets.DOMWidgetView.extend({
 });
 
 function render_function() {
+
+  console.log('\n\n\nSOMETHING\n\n\n')
 
   // generate unique id for each visualization
   var viz_number = String(Math.round(Math.random()*10000));
