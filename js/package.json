@@ -28,7 +28,7 @@
   "dependencies": {
     "clustergrammer": "v1.19.3",
     "d3": "^3.5.8",
-    "@jupyter-widgets/base":"1.0.1",
+    "@jupyter-widgets/base": "1.0.1",
     "underscore": "^1.8.3"
   }
 }

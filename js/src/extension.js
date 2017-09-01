@@ -7,8 +7,8 @@ if (window.require) {
     window.require.config({
         map: {
             "*" : {
-                "clustergrammer_widget": "nbextensions/clustergrammer_widget/index",
-                "jupyter-js-widgets": "nbextensions/jupyter-js-widgets/extension"
+                "clustergrammer_widget": "nbextensions/clustergrammer_widget/index"
+                // "jupyter-js-widgets": "nbextensions/jupyter-js-widgets/extension"
             }
         }
     });

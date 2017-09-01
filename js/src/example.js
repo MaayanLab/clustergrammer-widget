@@ -51,7 +51,7 @@ var hello_view = widgets.DOMWidgetView.extend({
 
 function render_function() {
 
-  console.log('\n\n\nmodel_module_version\n\n\n')
+  console.log('\n\n\n working on 7.0.0 migration \n\n\n')
 
   // generate unique id for each visualization
   var viz_number = String(Math.round(Math.random()*10000));

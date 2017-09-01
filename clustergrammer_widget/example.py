@@ -16,8 +16,10 @@ class clustergrammer_widget(widgets.DOMWidget):
     """
     _model_name = Unicode('hello_model').tag(sync=True)
     _view_name = Unicode('hello_view').tag(sync=True)
+
     _model_module = Unicode('clustergrammer_widget').tag(sync=True)
     _view_module = Unicode('clustergrammer_widget').tag(sync=True)
+
     _model_module_version = Unicode('1.13.1').tag(sync=True)
     _view_module_version = Unicode('1.13.1').tag(sync=True)
 
