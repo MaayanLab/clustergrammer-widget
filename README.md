@@ -5,7 +5,7 @@ This is a [Jupyter](http://jupyter.org/) notebook [interactive widget](https://g
 
 Please refer to the [Clustergrammer-Widget](http://clustergrammer.readthedocs.io/clustergrammer_widget.html) documentation for more information or click on the screenshot below to see an example notebook.
 
-[![demo_screenshot](img/jupyter_widget_nbviewer.png "demo_screenshot.png")](http://nbviewer.jupyter.org/github/MaayanLab/clustergrammer-widget/blob/master/Running_clustergrammer_widget.ipynb)
+[![demo_screenshot](img/demo_high-fr.gif "demo_high-fr.gif")](http://nbviewer.jupyter.org/github/MaayanLab/clustergrammer-widget/blob/master/Running_clustergrammer_widget.ipynb)
 
 # Installation
 The interactive widget can be installed and enabled using the following commands:
