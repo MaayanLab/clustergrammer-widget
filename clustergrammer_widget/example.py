@@ -7,7 +7,7 @@ Network = clustergrammer.Network
 
 # version 1.13.3
 
-@widgets.register('hello.Hello')
+@widgets.register
 class clustergrammer_widget(widgets.DOMWidget):
     """
     Clustergrammer-Widget generates an interactive heatmap in the Jupyter
